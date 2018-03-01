@@ -1,0 +1,23 @@
+{
+	"config": {
+        "vendor-dir": "Vendor",
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "require": {
+        "twbs/bootstrap": "^3.3",
+        "components/jquery": "^3.2",
+		"illuminate/support": "^5.4",
+		"illuminate/database": "^5.4"
+    },
+     "autoload": {
+        "psr-4": {
+            "AvgiSolutions\\Config\\": "Config",
+            "AvgiSolutions\\Controller\\": "Controller",
+            "AvgiSolutions\\Core\\": "Core",
+            "AvgiSolutions\\Lib\\": "Lib",
+            "AvgiSolutions\\Model\\": "Model"
+        }
+    }
+}
