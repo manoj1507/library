@@ -7,4 +7,8 @@ use AvgiSolutions\Core\Model;
 class AppModel extends Model
 {
 
+
 }
+
+
+?>

@@ -7,4 +7,8 @@ use AvgiSolutions\Core\Controller;
 class AppController extends Controller
 {
 
+
 }
+
+
+?>
