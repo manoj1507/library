@@ -7,7 +7,7 @@ class Users extends AppController
 
 	public function index()
 	{
-		$this->render(['Users', 'index']);
+		$this->render(['Users', 'login']);
 	}
 
 	public function add()

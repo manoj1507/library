@@ -1,5 +1,5 @@
 <?php
-
+/*
 namespace AvgiSolutions\Config;
 
 abstract class Database
@@ -12,7 +12,7 @@ abstract class Database
 		self::MAIN => [
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'student_registration',
+			'database'  => 'libms',
 			'username'  => 'root',
 			'password'  => 'admin',
 			'charset'   => 'utf8',

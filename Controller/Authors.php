@@ -9,7 +9,7 @@ class Authors extends AppController
 
 	public function index()
 	{
-		$this->render(['Users', 'index']);
+		$this->render(['Authors', 'ViewAuthors']);
 	}
 
 	public function add()
