@@ -37,7 +37,7 @@ if (!empty($result)) {
 			<div class="form-group" > 
 		    <div class="col-xs-6">
 		  	  <label for="releaseDate">Release Date</label><br>
-			  <input id="releaseDate" name="releaseDate type="Date" class="validate" value="<?php if(isset($_POST['releaseDate'])) { echo $post['releaseDate']; } ?>">
+			  <input id="releaseDate" name="releaseDate" type = "datetime" class="validate" value="<?php if(isset($_POST['releaseDate'])) { echo $post['releaseDate']; } ?>">
 			</div></div>
 
 			<div class="form-group" > 

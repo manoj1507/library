@@ -1,6 +1,6 @@
 <?php
-/*
-namespace AvgiSolutions\Config;
+
+namespace Config;
 
 abstract class Database
 {
@@ -19,7 +19,7 @@ abstract class Database
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		],
-		self::TEST => [
+		/*self::TEST => [
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'test_student_registration',
@@ -28,7 +28,7 @@ abstract class Database
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-		],
+		],*/
 	];
 
 }

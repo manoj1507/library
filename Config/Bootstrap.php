@@ -7,4 +7,4 @@ require_once 'Global.php';
 define('HTTP_URL', sprintf('http://localhost/%s/', basename(dirname(dirname(__FILE__)))));
 define('TMP', path([PROJECT_PATH, 'tmp']));
 define('DEBUG', 1);
-define('USE_CONNECTION', AvgiSolutions\Config\Database::MAIN);
+define('USE_CONNECTION', Config\Database::MAIN);
