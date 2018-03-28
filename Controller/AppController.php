@@ -9,7 +9,7 @@ class AppController extends authcheck{
 	
 	public function __construct()
 	  {
-			$this->model = new auth_model(); 
+			$this->model = new AppModel(); 
 			$this->authcheck = new authcheck(); 
 			$this->SessionId = $_SESSION["easyphp_sessionid"]; 
 	  }
