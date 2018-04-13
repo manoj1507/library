@@ -6,7 +6,7 @@ class UsersRegister  extends AppController{
 	
 	public function __construct()
 	  {
-			$this->model = new auth_model(); 
+			$this->model = new AppModel(); 
 	  }
 	  
 	public function index() {

@@ -1,5 +1,5 @@
-not done!!!!!!
-<h1 > Register </h1>
+
+<h1 > Register a Book </h1>
 
 <?php 
 if(!empty($errors)) {
@@ -19,54 +19,37 @@ if (!empty($result)) {
 
 		    <div class="form-group" > 
 			<div class="col-xs-6">
-			  <label for="firstname">Firstname</label><br>
-			  <input  id="firstname" name="firstname" type="text" class="validate" value="<?php if(isset($_POST['firstname'])) { echo $post['firstname']; } ?>">
+			  <label for="isbn">ISBN:</label><br>
+			  <input  id="isbn" name="isbn" type="number" class="validate" value="<?php if(isset($_POST['isbn'])) { echo $post['isbn']; } ?>">
 		    </div>
 		    </div>
 
 		     <div class="form-group" > 
 			<div class="col-xs-6">
-			  <label for="lastname">Lastname</label><br>
-			  <input  id="lastname" name="lastname" type="text" class="validate" value="<?php if(isset($_POST['lastname'])) { echo $post['lastname']; } ?>">
+			  <label for="tname">Name:</label><br>
+			  <input  id="name" name="name" type="text" class="validate" value="<?php if(isset($_POST['name'])) { echo $post['name']; } ?>">
 		    </div>
 		    </div>
 
 
             <div class="form-group" > 
 			<div class="col-xs-6">
-				<label for="password">Password</label> <br>
-			    <input  id="password" name="password" type="password" class="validate" value="">
+				<label for="edition">Edition:</label> <br>
+			    <input  id="edition" name="edition" type="edition" class="validate" value="<?php if(isset($_POST['edition'])) { echo $post['edition']; } ?>">
 			</div>
             </div>
-
-            <div class="form-group" > 
-			<div class="col-xs-6">
-				<label for="password">Re-enter Password </label><br>
-			    <input  id="password" name="passwordverify" type="password" class="validate" value="">
-			</div>
-		    </div>
 
 
             <div class="form-group" > 
 		    <div class="col-xs-6">
-		  	  <label for="email">Email</label><br>
-			  <input id="email" name="email" type="text" class="validate" value="<?php if(isset($_POST['email'])) { echo $post['email']; } ?>">
+		  	  <label for="is_downloadable">Is_Downloabable(1 for true/0 for false)</label><br>
+		  	  <select>
+		  	  	<option>0</option>
+		  	  	<option>1</option>
+		  	  </select>
 			</div></div>
 
-			 <div class="form-group" > 
-		    <div class="col-xs-6">
-		  	  <label for="departmentid">Department ID</label><br>
-			  <input id="departmentid" name="departmentid" type="number" class="validate" value="<?php if(isset($_POST['email'])) { echo $post['email']; } ?>">
-			</div></div>
-
-			<div class="form-group" > 
-			<div class="col-xs-6">
-			  <label for="role">Role</label><br>
-			  <input id="role" name="role" type="text" class="validate" value="<?php if(isset($_POST['role'])) { echo $post['role']; } ?>">
-			</div>
-            </div>
-            
-
+			
 			<div class="form-group" > 
 			<div class="col-xs-6">
 				<button class="btn btn-info" type="submit" >Register</button>
